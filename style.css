@@ -1,0 +1,52 @@
+ #clock{
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    background: url(clock.png) no-repeat;
+    margin: auto;
+    
+    background-size: 100%;
+
+}
+#hours, #minute,#second{
+    position:absolute;
+    background:black;
+    border-radius: 3px;
+    /* it will rotate hour mint and secnd from the bottom means from the center of the clock  */
+   transform-origin: bottom;
+    
+}
+
+ #hours{
+    width: 1.4%;
+    height: 24%;
+    top: 27%;
+    left: 48.9%;
+   opacity: 0.8;
+}
+    
+
+
+    #minute{
+        width: 1.4%;
+        height: 29%;
+        top: 21%;
+        left: 48.9%;
+        opacity: 0.8;
+        
+    }
+    
+    
+
+
+#second{
+    width: 1.4%;
+    height: 36%;
+    top: 14%;
+    left: 48.9%;
+    opacity: 0.8;
+        
+ 
+}  
+
+
